@@ -1,0 +1,26 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Montserrat:wght@200;400;500;600;700&display=swap');
+
+
+
+  *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Montserrat', sans-serif;
+  }
+
+  body {
+    background-color: #c9d6ff;
+    background-image: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+
+  html {
+    font-size: 62.5%;  // 10px/16px = 62.5%  -> 1rem =10px
+  }
